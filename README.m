@@ -31,14 +31,6 @@ Step5:
 
 ## Program
 ```python
-from robomaster import robot
-import time
-
-if __name__ == '__main__':
-    ep_robot = robot.Robot()
-    ep_robot.initialize(conn_type="ap")
-
-    ep_chassis = ep_robot.chassis
 
     from robomaster import robot
 import time
